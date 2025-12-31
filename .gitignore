@@ -34,3 +34,5 @@ Desktop.ini
 # --- IDE/Editor Specifics (Optional) ---
 # VS Code (if you edit GML externally)
 .vscode/
+
+*.py

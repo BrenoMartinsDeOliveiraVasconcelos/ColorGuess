@@ -48,22 +48,30 @@ correctness_height = 4
 block_height = sprite_get_height(sEmpty)
 block_width =  sprite_get_width(sEmpty)
 
-for (var line=0; line < block_amount_y; line+=1 ){
-	posx = first_block_x 
-	for (var col=0; col < block_amount_x; col+=1){	
-		show_debug_message(string(posx)+","+string(posy))
+posx = first_block_x 
+for (var col=0; col < block_amount_x; col+=1){	
+	show_debug_message(string(posx)+","+string(posy))
 		
-		instance_create_layer(posx, posy, "Instances", oEmpty)
-		color_instance =  instance_create_layer(posx, posy, "Lower", oColorBack)
-		correct_instance = instance_create_layer(posx, posy+((block_height/2)+correctness_height+block_spacing_pixels), "Instances", oCorrectness)
-		color_instance.is_toggleable = true
+	instance_create_layer(posx, posy, "Instances", oEmpty)
+	color_instance =  instance_create_layer(posx, posy, "Lower", oColorBack)
+	correct_instance = instance_create_layer(posx, posy+((block_height/2)+correctness_height+block_spacing_pixels), "Instances", oCorrectness)
+	color_instance.is_toggleable = true
 		
-		array_push(global.player_tries, color_instance)
-		array_push(global.correctness_objects, correct_instance)
-		posx = calculate_next_pos(posx, block_width, 1, 1)
-	}
-	posy = calculate_next_pos(posy, block_height, 1, 1)
+	array_push(global.player_tries, color_instance)
+	array_push(global.correctness_objects, correct_instance)
+	posx = calculate_next_pos(posx, block_width, 1, 1)
 }
+posy = calculate_next_pos(posy, sprite_get_height(sCorrectness), 1, 10)
+
+position_bars_spacing_y = 1
+posy = calculate_next_pos(posy, sprite_get_height(sRightBar), 1, position_bars_spacing_y)
+global.right_bar = instance_create_layer(room_width/2, posy, "Instances", oRIghtBar)
+
+posy = calculate_next_pos(posy, sprite_get_height(sWrongPos_bar), 1, position_bars_spacing_y)
+global.wrongpos_bar = instance_create_layer(room_width/2, posy, "Instances", oWrongPositionBar)
+
+posy = calculate_next_pos(posy, sprite_get_height(sWrongBar), 1, position_bars_spacing_y)
+global.wrong_bar = instance_create_layer(room_width/2, posy, "Instances", oWrongBar)
 
 
 // Try button location
