@@ -11,6 +11,8 @@
     {"name":"oGlobal","order":2,"path":"objects/oGlobal/oGlobal.yy",},
     {"name":"oSelected","order":4,"path":"objects/oSelected/oSelected.yy",},
     {"name":"globals","order":1,"path":"scripts/globals/globals.yy",},
+    {"name":"object_line_centered_x","order":3,"path":"scripts/object_line_centered_x/object_line_centered_x.yy",},
+    {"name":"object_line_size","order":2,"path":"scripts/object_line_size/object_line_size.yy",},
     {"name":"sBorder","order":1,"path":"sprites/sBorder/sBorder.yy",},
     {"name":"sButton_base","order":5,"path":"sprites/sButton_base/sButton_base.yy",},
     {"name":"sColorBack","order":2,"path":"sprites/sColorBack/sColorBack.yy",},

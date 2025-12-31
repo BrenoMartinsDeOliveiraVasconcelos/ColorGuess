@@ -8,13 +8,16 @@ global.selected_color = 0
 global.player_tries = []
 
 // Color blocks spawning data
-first_block_x = 24
+
 first_block_y =  16
 block_spacing_pixels = 1
 block_height =  16
 block_width = 16
 block_amount_x = 4
 block_amount_y = 2
+
+line_size = object_line_size(block_width, block_spacing_pixels, block_amount_x)
+first_block_x = object_line_centered_x(line_size, room_width, block_width)
 
 // Spawning blocks
 posy = first_block_y
@@ -29,9 +32,9 @@ for (var line=0; line < block_amount_y; line+=1 ){
 		color_instance =  instance_create_layer(posx, posy, "Lower", oColorBack)
 		color_instance.image_index = block_color_index
 		block_color_index += 1
-		posx = calculate_next_pos(posx, block_width, 1, 1)
+		posx = calculate_next_pos(posx, block_width, 1, block_spacing_pixels)
 	}
-	posy = calculate_next_pos(posy, block_height, 1, 1)
+	posy = calculate_next_pos(posy, block_height, 1,block_spacing_pixels)
 }
 
 // Empty block spawn data
@@ -53,3 +56,11 @@ for (var line=0; line < block_amount_y; line+=1 ){
 	}
 	posy = calculate_next_pos(posy, block_height, 1, 1)
 }
+
+
+// Button location
+room_middle_x = room_width/2
+button_spacing_from_low_y =  20
+
+instance_create_layer(room_middle_x, room_height-button_spacing_from_low_y, "Instances", oButton)
+

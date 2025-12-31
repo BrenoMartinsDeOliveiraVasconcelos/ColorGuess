@@ -32,6 +32,8 @@
     {"id":{"name":"game","path":"rooms/game/game.yy",},},
     {"id":{"name":"calculate_next_pos","path":"scripts/calculate_next_pos/calculate_next_pos.yy",},},
     {"id":{"name":"globals","path":"scripts/globals/globals.yy",},},
+    {"id":{"name":"object_line_centered_x","path":"scripts/object_line_centered_x/object_line_centered_x.yy",},},
+    {"id":{"name":"object_line_size","path":"scripts/object_line_size/object_line_size.yy",},},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},},
     {"id":{"name":"sButton_base","path":"sprites/sButton_base/sButton_base.yy",},},
