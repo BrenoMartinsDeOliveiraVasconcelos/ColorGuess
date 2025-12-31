@@ -7,8 +7,10 @@
   "ResourceOrderSettings":[
     {"name":"oButton","order":5,"path":"objects/oButton/oButton.yy",},
     {"name":"oColorBack","order":1,"path":"objects/oColorBack/oColorBack.yy",},
+    {"name":"oCorrectness","order":6,"path":"objects/oCorrectness/oCorrectness.yy",},
     {"name":"oEmpty","order":3,"path":"objects/oEmpty/oEmpty.yy",},
     {"name":"oGlobal","order":2,"path":"objects/oGlobal/oGlobal.yy",},
+    {"name":"oModeSwitch","order":7,"path":"objects/oModeSwitch/oModeSwitch.yy",},
     {"name":"oSelected","order":4,"path":"objects/oSelected/oSelected.yy",},
     {"name":"globals","order":1,"path":"scripts/globals/globals.yy",},
     {"name":"object_line_centered_x","order":3,"path":"scripts/object_line_centered_x/object_line_centered_x.yy",},
@@ -17,7 +19,9 @@
     {"name":"sButton_base","order":5,"path":"sprites/sButton_base/sButton_base.yy",},
     {"name":"sButton_try","order":6,"path":"sprites/sButton_try/sButton_try.yy",},
     {"name":"sColorBack","order":2,"path":"sprites/sColorBack/sColorBack.yy",},
+    {"name":"sCorrectness","order":7,"path":"sprites/sCorrectness/sCorrectness.yy",},
     {"name":"sEmpty","order":3,"path":"sprites/sEmpty/sEmpty.yy",},
+    {"name":"sModeSwitch","order":8,"path":"sprites/sModeSwitch/sModeSwitch.yy",},
     {"name":"sSelect","order":4,"path":"sprites/sSelect/sSelect.yy",},
   ],
 }
