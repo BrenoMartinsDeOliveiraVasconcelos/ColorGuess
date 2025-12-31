@@ -15,6 +15,7 @@
     {"name":"object_line_size","order":2,"path":"scripts/object_line_size/object_line_size.yy",},
     {"name":"sBorder","order":1,"path":"sprites/sBorder/sBorder.yy",},
     {"name":"sButton_base","order":5,"path":"sprites/sButton_base/sButton_base.yy",},
+    {"name":"sButton_try","order":6,"path":"sprites/sButton_try/sButton_try.yy",},
     {"name":"sColorBack","order":2,"path":"sprites/sColorBack/sColorBack.yy",},
     {"name":"sEmpty","order":3,"path":"sprites/sEmpty/sEmpty.yy",},
     {"name":"sSelect","order":4,"path":"sprites/sSelect/sSelect.yy",},

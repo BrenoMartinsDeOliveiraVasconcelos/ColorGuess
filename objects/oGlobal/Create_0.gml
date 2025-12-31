@@ -58,9 +58,9 @@ for (var line=0; line < block_amount_y; line+=1 ){
 }
 
 
-// Button location
+// Try utton location
 room_middle_x = room_width/2
 button_spacing_from_low_y =  20
 
-instance_create_layer(room_middle_x, room_height-button_spacing_from_low_y, "Instances", oButton)
-
+global.try_btn = instance_create_layer(room_middle_x, room_height-button_spacing_from_low_y, "Instances", oButton)
+global.try_btn.sprite_index = sButton_try

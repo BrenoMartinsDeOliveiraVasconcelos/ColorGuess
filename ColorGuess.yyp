@@ -37,6 +37,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},},
     {"id":{"name":"sButton_base","path":"sprites/sButton_base/sButton_base.yy",},},
+    {"id":{"name":"sButton_try","path":"sprites/sButton_try/sButton_try.yy",},},
     {"id":{"name":"sColorBack","path":"sprites/sColorBack/sColorBack.yy",},},
     {"id":{"name":"sEmpty","path":"sprites/sEmpty/sEmpty.yy",},},
     {"id":{"name":"sSelect","path":"sprites/sSelect/sSelect.yy",},},
