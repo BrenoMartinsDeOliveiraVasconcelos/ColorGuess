@@ -10,15 +10,22 @@ if (sprite_index == sButton_try){
 		player_try_id = global.player_tries[item]
 		player_try_color = player_try_id.image_index
 		correctness_slot = global.correctness_objects[item]
+		correctness_index = 0
 		
 		if (player_try_color == pos_color_right){
-			correctness_slot.image_index = 1
+				correctness_index = 1
 		}else{
-			if (array_contains(global.computer_colors, player_try_color)){
-				correctness_slot.image_index = 2
-			}else{
-				correctness_slot.image_index = 3
-			}
+				if (array_contains(global.computer_colors, player_try_color)){
+					correctness_index = 2
+				}else{
+					correctness_index = 3
+				}
+		}
+			
+		if (global.mode_switch.image_index == 0){
+			correctness_slot.image_index = correctness_index
+		}else{
+			correctness_slot.image_index = 0
 		}
 	}
 }

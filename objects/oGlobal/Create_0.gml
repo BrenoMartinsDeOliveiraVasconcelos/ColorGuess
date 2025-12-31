@@ -13,8 +13,8 @@ global.correctness_objects = []
 
 first_block_y =  16
 block_spacing_pixels = 1
-block_height =  16
-block_width = 16
+block_height =  sprite_get_height(sBorder)
+block_width = sprite_get_width(sBorder)
 block_amount_x = 4
 block_amount_y = 2
 
@@ -45,6 +45,8 @@ posy += next_y_jump
 posx = first_block_x
 block_amount_y = 1
 correctness_height = 4
+block_height = sprite_get_height(sEmpty)
+block_width =  sprite_get_width(sEmpty)
 
 for (var line=0; line < block_amount_y; line+=1 ){
 	posx = first_block_x 
@@ -68,9 +70,9 @@ for (var line=0; line < block_amount_y; line+=1 ){
 room_middle_x = room_width/2
 button_spacing_from_low_y =  20
 try_button_target_y =  room_height-button_spacing_from_low_y
-mode_selector_spacing = 5
-button_height = sButton_try.sprite_height
-mode_switch_height = sModeSwitch.sprite_height
+mode_selector_spacing = 2
+button_height =  sprite_get_height(sButton_try)
+mode_switch_height =  sprite_get_height(sModeSwitch)
 mode_target_y = (try_button_target_y + button_height/2 + mode_switch_height/2)+mode_selector_spacing
 
 global.try_btn = instance_create_layer(room_middle_x, try_button_target_y, "Instances", oButton)
