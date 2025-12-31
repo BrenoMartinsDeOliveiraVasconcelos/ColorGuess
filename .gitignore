@@ -1,0 +1,36 @@
+# --- GameMaker Studio 2 Specifics ---
+
+# User-specific project settings (Window layout, recent history, etc.)
+*.user
+
+# Debug files
+*.yydebug
+
+# Temporary files and folder generated during build/run
+/tmp/
+/temp/
+/output/
+
+# Project conversion backups (if you migrated from an older version)
+*.yyp.converted
+
+# Legacy GameMaker (GMS 1.4 or older GMS2 views) - Optional if strictly using new GMS
+# views/*
+# !views/default
+
+# --- Operating System Files ---
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- IDE/Editor Specifics (Optional) ---
+# VS Code (if you edit GML externally)
+.vscode/

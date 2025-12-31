@@ -1,0 +1,20 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":4,"path":"folders/Objects.yy",},
+    {"name":"Scripts","order":1,"path":"folders/Scripts.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oButton","order":5,"path":"objects/oButton/oButton.yy",},
+    {"name":"oColorBack","order":1,"path":"objects/oColorBack/oColorBack.yy",},
+    {"name":"oEmpty","order":3,"path":"objects/oEmpty/oEmpty.yy",},
+    {"name":"oGlobal","order":2,"path":"objects/oGlobal/oGlobal.yy",},
+    {"name":"oSelected","order":4,"path":"objects/oSelected/oSelected.yy",},
+    {"name":"globals","order":1,"path":"scripts/globals/globals.yy",},
+    {"name":"sBorder","order":1,"path":"sprites/sBorder/sBorder.yy",},
+    {"name":"sButton_base","order":5,"path":"sprites/sButton_base/sButton_base.yy",},
+    {"name":"sColorBack","order":2,"path":"sprites/sColorBack/sColorBack.yy",},
+    {"name":"sEmpty","order":3,"path":"sprites/sEmpty/sEmpty.yy",},
+    {"name":"sSelect","order":4,"path":"sprites/sSelect/sSelect.yy",},
+  ],
+}
